@@ -1,0 +1,33 @@
+name: campus_event_manager
+
+description: "Smart Campus Event & Participation Management System"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  shared_preferences: ^2.2.2
+  fl_chart: ^0.66.0
+  cupertino_icons: ^1.0.8
+
+  # NEW ADVANCED UI PACKAGES
+  lottie: ^3.1.0
+  google_fonts: ^6.2.1
+  animated_text_kit: ^4.2.2
+  percent_indicator: ^4.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
